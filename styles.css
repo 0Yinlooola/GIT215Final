@@ -1,0 +1,150 @@
+:root{
+    /*  COLOR SCHEME */
+    --gray: #79838c;
+    --navy-blue: #1C3240;
+    --yellow: #F2BE5C;
+    --orange: #F2913D;
+    --dk-orange: #D95A2B;
+    --white: #fff;
+
+    font-family: "fabulosa", sans-serif;
+    font-family: "futura-100", sans-serif;
+    font-family: "futura-100-book", sans-serif;
+
+}
+
+#wrapper{
+    width: 1440px;
+    margin: 0;
+    background-color #79838c;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.36'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  margin: 0;
+  background-color: #1C3240;
+  color: #fff;
+}
+
+#topper{
+    display:flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+h1, h2, h3{
+    font-family: "fabulosa", sans-serif;
+    color: #fff;
+}
+
+h1{
+    font-size: 4rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+a:hover{
+    background-color: #F2BE5C;
+    color: var(--dk-orange);
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color:#fff;
+}
+
+a:focus{
+    color: #fff;
+}
+
+#click{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  list-style: none; /
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  padding: 10px 15px; 
+  text-decoration: none;
+  color: #fff;
+  font-family: "fabulosa", sans-serif;
+  font-size: 20pt;
+}
+
+#blurb{
+    display: block;
+    text-align: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+} 
+
+#grid > div{
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 2rem;
+    font-family: "futura-100", sans-serif;
+}
+
+#slant{
+    font-family: "futura-100-book", sans-serif;
+    font-style: italic;
+}
+
+#down > p{
+    font-size: 1rem;
+}
+
+form, fieldset, label, textarea, #submit{
+    font-size: 2rem;
+}
+
+#grid-two{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+#grid-two > img{
+    width: 50%;
+    height: 200%
+}
+
+#grid-two > div{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: #F2913D;
+    display: block;
+    text-align: center;
+}
